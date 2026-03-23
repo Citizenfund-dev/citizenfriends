@@ -1,8 +1,8 @@
 {
-  "name": "ace",
+  "name": "website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ace-ulb.be/",
+  "homepage": "https://citizenfriends.com/",
   "license": "mit",
   "babel": {
     "plugins": [
