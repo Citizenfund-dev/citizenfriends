@@ -4,6 +4,7 @@ import { H3, Text, Center, C1 } from "../components/Titles";
 import { Overlay } from "../components/Images";
 import { Col, Row } from "reactstrap";
 import { Helmet } from "react-helmet";
+import Navbar from "../components/Navbar";
 
 // eslint-disable-next-line
 export default () => {
@@ -13,6 +14,7 @@ export default () => {
         <Helmet>
             <title>Citizenfriends</title>
         </Helmet>
+        <Navbar />
         <Banner/>
         <section className="section section-lg section-shaped pg-250">
         <div className="h-100" id="caroussel">

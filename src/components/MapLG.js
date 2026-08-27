@@ -30,33 +30,25 @@ export default () => {
           <Col lg="6" className='p-0'>
             <Row className="align-items-center m-0">
             <Center>
-              <H3 className="text-center"><FontAwesomeIcon icon={['fas', 'map-marker-alt']} /> Où nous trouver </H3>
+              <H3 className="text-center"><FontAwesomeIcon icon={['fas', 'map-marker-alt']} /> Où le trouver </H3>
               <Text>
                   <ul style={{listStyleType: "none"}}>
                       {SETTINGS.location.entreprise ?
                           <li>
-                              <FontAwesomeIcon icon={['fas', 'address-book']}/>
-                              {SETTINGS.location.entreprise.url
-                                  ? <a href={SETTINGS.location.entreprise.url}> {SETTINGS.location.entreprise.name}</a>
-                                  : SETTINGS.location.entreprise}
+                              <FontAwesomeIcon icon={['fas', 'address-book']}/> Citizenfund Liège
                           </li>
                           : null
                       }
                       <li><FontAwesomeIcon
-                          icon={['fas', 'road']}/>{` ${SETTINGS.location.street} ${SETTINGS.location.number}`}</li>
+                          icon={['fas', 'road']}/>{` QUAI MATIVA 23 `}</li>
                       <li><FontAwesomeIcon
-                          icon={['fas', 'street-view']}/>{` ${SETTINGS.location.CP} ${SETTINGS.location.town}`}</li>
+                          icon={['fas', 'street-view']}/>{` 4020 Liège`}</li>
                       {SETTINGS.location.phone ? (
                           <li><FontAwesomeIcon icon={['fas', 'phone']}/>{` ${SETTINGS.location.phone}`}</li>
-                      ) : SETTINGS.location.entreprise.num ? (
-                          <li><FontAwesomeIcon icon={['fas', 'building']}/>{` ${SETTINGS.location.entreprise.num}`}</li>
                       ) : null
                       }
                       <li>
-                          <FontAwesomeIcon icon={['fas', 'envelope']}/>
-                          <a href={`mailto:${SETTINGS.location.email}`}>
-                              {` ${SETTINGS.location.email}`}
-                          </a>
+                          <FontAwesomeIcon icon={['fas', 'envelope']}/> <a href={`mailto:liège@citizenfund.coop`}> liège@citizenfund.coop </a>
                       </li>
                   </ul>
               </Text>
@@ -75,7 +67,7 @@ export default () => {
                 autoplay={true}
                 arrows={false}
                 >
-                <img src="/static/img/banner.png" alt=""/>
+                <img src="/static/img/citizenfriends-member.jpg" alt=""/>
                 </Slider>
             </Overlay>
           </Col>

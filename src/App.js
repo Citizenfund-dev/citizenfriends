@@ -6,7 +6,10 @@ import { fas } from "@fortawesome/free-solid-svg-icons";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Helmet from "react-helmet";
 import {
+  BrabantWallon,
+  Bruxelles,
   Home,
+  Liège,
   NotFound,
 } from "./routes";
 //import theme from "./utils/theme";
@@ -27,6 +30,12 @@ export default () => {
         <Routes>
           <Route path="/"
             element = {<Home />} />
+          <Route path="bruxelles"
+            element = { <Bruxelles /> } />
+          <Route path="liege"
+            element = { <Liège /> } />
+          <Route path="brabant-wallon"
+            element = { <BrabantWallon /> } />
           <Route path="*"
             element = {<NotFound />} />
         </Routes>

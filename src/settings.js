@@ -12,14 +12,14 @@ export default {
       entreprise: {
         name: "Citizenfriends ASBL",
         url: "https://citizenfriends.com",
-        num: "797.059.985"
+        num: "BE0797059985"
       },
       number: "",
-      street: "Chaussée de la Hulpe",
+      street: "Chaussée de la Hulpe, 150",
       CP: "1170",
       town: "Watermael-Boisfort",
       phone: "",
-      email: "info@citizenfund.coop",
+      email: "info@citizenfriends.be",
     },
   };
   
