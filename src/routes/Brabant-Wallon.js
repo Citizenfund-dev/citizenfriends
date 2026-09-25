@@ -5,6 +5,7 @@ import { Overlay } from "../components/Images";
 import { Col, Row } from "reactstrap";
 import { Helmet } from "react-helmet";
 import Navbar from "../components/Navbar";
+import MapBW from "../components/MapBW";
 
 // eslint-disable-next-line
 export default () => {
@@ -44,6 +45,7 @@ export default () => {
             </Col>
           </Row>
         </div>
+        <MapBW />
         </section>
         </span>
     );

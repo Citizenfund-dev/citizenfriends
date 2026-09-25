@@ -48,7 +48,7 @@ export default () => {
                       ) : null
                       }
                       <li>
-                          <FontAwesomeIcon icon={['fas', 'envelope']}/> <a href={`mailto:info@citizenfund.coop`}> info@citizenfund.coop </a>
+                          <FontAwesomeIcon icon={['fas', 'envelope']}/> <a href={`mailto:info@bxl.citizenfund.coop`}> info@bxl.citizenfund.coop </a>
                       </li>
                   </ul>
               </Text>

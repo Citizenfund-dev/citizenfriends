@@ -33,22 +33,11 @@ export default () => {
               <H3 className="text-center"><FontAwesomeIcon icon={['fas', 'map-marker-alt']} /> Où le trouver </H3>
               <Text>
                   <ul style={{listStyleType: "none"}}>
-                      {SETTINGS.location.entreprise ?
-                          <li>
-                              <FontAwesomeIcon icon={['fas', 'address-book']}/> Citizenfund Liège
-                          </li>
-                          : null
-                      }
-                      <li><FontAwesomeIcon
-                          icon={['fas', 'road']}/>{` QUAI MATIVA 23 `}</li>
-                      <li><FontAwesomeIcon
-                          icon={['fas', 'street-view']}/>{` 4020 Liège`}</li>
-                      {SETTINGS.location.phone ? (
-                          <li><FontAwesomeIcon icon={['fas', 'phone']}/>{` ${SETTINGS.location.phone}`}</li>
-                      ) : null
-                      }
                       <li>
-                          <FontAwesomeIcon icon={['fas', 'envelope']}/> <a href={`mailto:info@liege.citizenfund.coop`}> info@liege.citizenfund.coop </a>
+                          <FontAwesomeIcon icon={['fas', 'address-book']}/> Citizenfund Brabant-Wallon
+                      </li>
+                      <li>
+                          <FontAwesomeIcon icon={['fas', 'envelope']}/> <a href={`mailto:info@bw.citizenfund.coop`}> info@bw.citizenfund.coop </a>
                       </li>
                   </ul>
               </Text>
